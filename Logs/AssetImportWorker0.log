@@ -1,0 +1,789 @@
+Unity Editor version:    2023.1.20f1 (35a524b12060)
+Branch:                  2023.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6.1 (Build 22G313)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/alex/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50658
+Successfully changed project path to: /Users/alex/My project (1)
+/Users/alex/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704365176576] Host "[IP] 192.168.31.79 [Port] 0 [Flags] 2 [Guid] 2475864284 [EditorId] 2475864284 [Version] 1048832 [Id] OSXEditor(0,MBP-Alex) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704365176576] Host "[IP] 192.168.31.79 [Port] 0 [Flags] 2 [Guid] 2475864284 [EditorId] 2475864284 [Version] 1048832 [Id] OSXEditor(0,MBP-Alex) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 6.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.20f1 (35a524b12060)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alex/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56926
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2023.1.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2023.1.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004099 seconds.
+- Loaded All Assemblies, in  0.500 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 136 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (357ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.249 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.067 seconds
+Domain Reload Profiling: 2317ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (790ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (528ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (485ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1067ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.1.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (50.0 KB). Loaded Objects now: 3711.
+Memory consumption went from 220.8 MB to 220.7 MB.
+Total: 7.202894 ms (FindLiveObjects: 0.297310 ms CreateObjectMapping: 0.239041 ms MarkObjects: 6.506549 ms  DeleteObjects: 0.158775 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48164.240561 seconds.
+  path: Assets/Scenes/Texture/ForestGround.terrainlayer
+  artifactKey: Guid(1bdadcacccd0140c4b3bfc967ff4b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Texture/ForestGround.terrainlayer using Guid(1bdadcacccd0140c4b3bfc967ff4b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee89dfb3c1d9ba4e5b470d31d533d71') in 0.203904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/Texture/NewLayer 2.terrainlayer
+  artifactKey: Guid(5f9561939f9db418d8c864f276010e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Texture/NewLayer 2.terrainlayer using Guid(5f9561939f9db418d8c864f276010e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6804e44cc02d80c935204bcb554c8') in 0.009823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/Texture/ForestGround 1.terrainlayer
+  artifactKey: Guid(f7a288552439b4b20b4567a234613bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Texture/ForestGround 1.terrainlayer using Guid(f7a288552439b4b20b4567a234613bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032a49af4d4b4a8fa5bc416bd6c7f2e5') in 0.018112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.857344 seconds.
+  path: Assets/Scenes/Texture/ForestGround 2.terrainlayer
+  artifactKey: Guid(5f9561939f9db418d8c864f276010e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Texture/ForestGround 2.terrainlayer using Guid(5f9561939f9db418d8c864f276010e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325aad9d4dea9a7213d4dbbbe30a57b8') in 0.008393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 100.552429 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(75f6767d9b97b4c6a98cea121dab383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer using Guid(75f6767d9b97b4c6a98cea121dab383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd77f28f177b0f555847627401125832') in 0.012847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(d19f97aae1f624f6cbe13344b7095f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(d19f97aae1f624f6cbe13344b7095f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe56229e65f376d56e1b4975551f891') in 0.011091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(2b8007a9e992d4286bad6d21b1d38060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer using Guid(2b8007a9e992d4286bad6d21b1d38060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605f396d4ec59199f93f38d1e491e9c3') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.456639 seconds.
+  path: Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass TextureSettings.lighting
+  artifactKey: Guid(245695d7bff0f4214924fb7edcec45fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass TextureSettings.lighting using Guid(245695d7bff0f4214924fb7edcec45fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608ce12e6776bc84a13f493789aaf9f5') in 0.001196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.076878 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_10.10.1.unitypackage
+  artifactKey: Guid(da738e7716a7c424b8eba26f208307b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_10.10.1.unitypackage using Guid(da738e7716a7c424b8eba26f208307b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2c4d96cfbf38251d8324750197b5d8') in 0.001130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 311.067911 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(87cdd2e6b567c4fb2887d4cbcf7741e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(87cdd2e6b567c4fb2887d4cbcf7741e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e6491a31b9bc0832b7531ee13c1dc6') in 0.000713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.248 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.058 seconds
+Domain Reload Profiling: 3306ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (912ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (468ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (441ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3716.
+Memory consumption went from 221.4 MB to 221.4 MB.
+Total: 4.556974 ms (FindLiveObjects: 0.313484 ms CreateObjectMapping: 0.223017 ms MarkObjects: 3.973552 ms  DeleteObjects: 0.046144 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alex/My project (1)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.291 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.919 seconds
+Domain Reload Profiling: 3211ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (964ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (453ms)
+				TypeCache.ScanAssembly (439ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3717.
+Memory consumption went from 227.2 MB to 227.2 MB.
+Total: 4.865625 ms (FindLiveObjects: 0.270427 ms CreateObjectMapping: 0.275947 ms MarkObjects: 4.266138 ms  DeleteObjects: 0.052145 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331.028152 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(f1796d9295ff44197b38b57a295beabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(f1796d9295ff44197b38b57a295beabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb229e0c3643631b68e6f2ccdeeeb6f2') in 0.002232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 88.421889 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/VS_indirect.cginc
+  artifactKey: Guid(3e336216065dbd84f94c41015a5d29ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/VS_indirect.cginc using Guid(3e336216065dbd84f94c41015a5d29ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb78166fbeb8d79e5a1b83d2c16a3d2e') in 0.043432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003573 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass 04
+  artifactKey: Guid(92818346dba1b4258b84ca71aae41664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass 04 using Guid(92818346dba1b4258b84ca71aae41664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe38e6b9b531cf10acc6caae7eb7d77a') in 0.000359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016996 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders
+  artifactKey: Guid(14ce2d65946738f43a28d751e95a91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders using Guid(14ce2d65946738f43a28d751e95a91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed650ab155f19e7dfa5c4583252ccf4') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010019 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass 03
+  artifactKey: Guid(bd441759a94344f4f8f67e58637b8503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass 03 using Guid(bd441759a94344f4f8f67e58637b8503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3c41e89631c8f8639e572ac9e59809') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014612 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures/Vegetation
+  artifactKey: Guid(dd73190f7b93e10419c60b8edd5dc46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures/Vegetation using Guid(dd73190f7b93e10419c60b8edd5dc46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542eb00ff8842513d9b8e4c3df6ac72a') in 0.000362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010710 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Common Files/Shaders
+  artifactKey: Guid(b8e31c3a7a06ef1419dfde734bdbc617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Common Files/Shaders using Guid(b8e31c3a7a06ef1419dfde734bdbc617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ce7fe2dd33a85360cd4206a2744078') in 0.000364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007543 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures/Rocks
+  artifactKey: Guid(d3aa079274c9b1b4d98649d704c1e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures/Rocks using Guid(d3aa079274c9b1b4d98649d704c1e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f2e8d81431b95226c5fb7cd7ce3276') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027650 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees
+  artifactKey: Guid(759f0621eee5d054190312b280f3d0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees using Guid(759f0621eee5d054190312b280f3d0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c508df01c65a818ccd3ba5afe9ebba') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019347 seconds.
+  path: Assets/TerrainData_b98b8a3c-fc20-441d-995a-8551d877a5da.asset
+  artifactKey: Guid(e640434ab4cf442eb8e4559f375d17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b98b8a3c-fc20-441d-995a-8551d877a5da.asset using Guid(e640434ab4cf442eb8e4559f375d17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735ffee87f270109620f878db5c2c166') in 0.068345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.005476 seconds.
+  path: Assets/CrunchScr.cs
+  artifactKey: Guid(5cc4f3233763742d5b196f90fe43b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrunchScr.cs using Guid(5cc4f3233763742d5b196f90fe43b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10921c7645fd88a59da7e6f9de1eaeb3') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002212 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes
+  artifactKey: Guid(233bc25dd4bfa8846b700d547592a78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes using Guid(233bc25dd4bfa8846b700d547592a78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c90f41ed93974f14b82e6a958a4108') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011701 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass & dead leafs 02
+  artifactKey: Guid(892cc58d4470a433e84dc90d32dddd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass & dead leafs 02 using Guid(892cc58d4470a433e84dc90d32dddd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f32dfec74a5c3d9398cb7c1d18483b') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007338 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_12.1.10.unitypackage
+  artifactKey: Guid(7b658bcbdf15638449a47319ee5bdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_12.1.10.unitypackage using Guid(7b658bcbdf15638449a47319ee5bdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbd908ba28a8e96ab52e10f687aa9b0') in 0.000770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020281 seconds.
+  path: Assets/Alex Map/TriForge Assets
+  artifactKey: Guid(8913256065fffa446a36e6f2349813ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets using Guid(8913256065fffa446a36e6f2349813ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522832afd9ed54035eff97a037ee85c') in 0.001308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029578 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass 06
+  artifactKey: Guid(dc91b05ee8ca94bb0b087377acff395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass 06 using Guid(dc91b05ee8ca94bb0b087377acff395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a40557f571f6a3b5cffddfd2361a2e') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045644 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Prefabs/Buildings
+  artifactKey: Guid(5dee013000cd9d443adc333a198e494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Prefabs/Buildings using Guid(5dee013000cd9d443adc333a198e494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34440aea925dd6eddcb841e8f663ed7') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001847 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Meshes/Vegetation
+  artifactKey: Guid(a8e227c45173b0747a0bda90bc6930fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Meshes/Vegetation using Guid(a8e227c45173b0747a0bda90bc6930fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc435c13154c42045c339e94415f11') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004121 seconds.
+  path: Assets/Alex Map/_TerrainAutoUpgrade
+  artifactKey: Guid(43b8f6d7f70434cc6af9874fd1a7de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/_TerrainAutoUpgrade using Guid(43b8f6d7f70434cc6af9874fd1a7de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790915177087d287ab474d7729ad3491') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005003 seconds.
+  path: Assets/Alex Map/Ground textures pack/Ground 01
+  artifactKey: Guid(6d6e6c8ae41b8405780dc1f7efd1b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Ground 01 using Guid(6d6e6c8ae41b8405780dc1f7efd1b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2a3c2afac1d96ae437bdce29024712') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016330 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader_VS.shader
+  artifactKey: Guid(9644638587573544181f148540ce0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader_VS.shader using Guid(9644638587573544181f148540ce0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a011918554b5366c3c059cb66fa90006') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012720 seconds.
+  path: Assets/Alex Map/Elemental Magic Totems/Meshes/Animation Controller/WaterTotem_Controller.controller
+  artifactKey: Guid(40e03c77c4d50cc41bd38591b98488a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Elemental Magic Totems/Meshes/Animation Controller/WaterTotem_Controller.controller using Guid(40e03c77c4d50cc41bd38591b98488a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281731f0a1884e75510b0bea9e010544') in 0.011773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.022565 seconds.
+  path: Assets/Alex Map/Fantasy Forest Environment Free Sample/Materials
+  artifactKey: Guid(cd0f69bea45e4f84ea174419ce134ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Fantasy Forest Environment Free Sample/Materials using Guid(cd0f69bea45e4f84ea174419ce134ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec55de0a52c768bab3ee1f48f7e23d7f') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007866 seconds.
+  path: Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures
+  artifactKey: Guid(4431a2672fa37c24fa06fff5c5b16b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/TriForge Assets/Top Down - Fantasy Village/Textures using Guid(4431a2672fa37c24fa06fff5c5b16b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f539972c9997d0db71f22af0619133') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003906 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass 02
+  artifactKey: Guid(476082d44a74747ca913a7783adbf8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass 02 using Guid(476082d44a74747ca913a7783adbf8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44717d5fd764346e48da7f2385e2baf') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016354 seconds.
+  path: Assets/Alex Map/Elemental Magic Totems/Textures
+  artifactKey: Guid(707e41bfd1f4224459cf6f93124c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Elemental Magic Totems/Textures using Guid(707e41bfd1f4224459cf6f93124c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a227d834dbcec3a33fc9c75557969890') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061236 seconds.
+  path: Assets/Alex Map/Elemental Magic Totems/Meshes
+  artifactKey: Guid(eabd9426deafde34d8d91de6a0fe775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Elemental Magic Totems/Meshes using Guid(eabd9426deafde34d8d91de6a0fe775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4501eba99f15f4d3cde4c5f1e75ebfa9') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001805 seconds.
+  path: Assets/Alex Map/Fantasy Forest Environment Free Sample/Scenes/assets.unity
+  artifactKey: Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Fantasy Forest Environment Free Sample/Scenes/assets.unity using Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e645a7bfdfa8ea52768b7013e701c602') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004786 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Rock_Shader_VS.shader
+  artifactKey: Guid(69cfc5f6a7c726b418bd7100aa488fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Rock_Shader_VS.shader using Guid(69cfc5f6a7c726b418bd7100aa488fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae647e44326b3a674499d65dda44682') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011361 seconds.
+  path: Assets/Alex Map/Ground textures pack/Ground 02
+  artifactKey: Guid(5d1524297f4764e52bd0f5a11748ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Ground 02 using Guid(5d1524297f4764e52bd0f5a11748ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06e72e0fe3656fa56442636984b276b') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004526 seconds.
+  path: Assets/Alex Map
+  artifactKey: Guid(87cdd2e6b567c4fb2887d4cbcf7741e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map using Guid(87cdd2e6b567c4fb2887d4cbcf7741e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dabcd6f2a0c49f757a120f9d45c4eb') in 0.000403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029881 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks
+  artifactKey: Guid(710655db3a8505840bbf816762a7887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks using Guid(710655db3a8505840bbf816762a7887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9747e034a5615d85cf1009b80fd2923') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007373 seconds.
+  path: Assets/Alex Map/Polytope Studio
+  artifactKey: Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio using Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b11f9f2945d04e87d02952df1dfddb3') in 0.000351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009165 seconds.
+  path: Assets/Alex Map/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2917ab61eba9e48e451235f6ae2722c2') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001290 seconds.
+  path: Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms
+  artifactKey: Guid(7a3bbc3a2bec9f747b42252d4c80a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms using Guid(7a3bbc3a2bec9f747b42252d4c80a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaeba24437badb163d2707c7b120745') in 0.000364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016693 seconds.
+  path: Assets/Alex Map/Ground textures pack/Grass 01
+  artifactKey: Guid(a166830f189e84333bd43a5e1e51ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Ground textures pack/Grass 01 using Guid(a166830f189e84333bd43a5e1e51ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc8b5d4bb86fb5ee1e7890af2e6cde3') in 0.000462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013499 seconds.
+  path: Assets/Alex Map/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset
+  artifactKey: Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alex Map/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset using Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Obtained 43 stack frames.
+#0  0x0000010c5d044e in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, UnityGUID>>::operator=(core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, UnityGUID>> const&)
+#1  0x0000010c5d506d in core::function_ref<void (SourceAssetDBWriteTxn&)>::function_ref<SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_4, (void*)0>(SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_4&&)::'lambda'(void*, SourceAssetDBWriteTxn&)::__invoke(void*, SourceAssetDBWriteTxn&)
+#2  0x0000010c5aa2b9 in LMDB_Transaction::Run(core::function_ref<void (LMDB_Transaction&)>)
+#3  0x0000010c521a79 in SourceAssetDBWriteTxn::Run(core::function_ref<void (SourceAssetDBWriteTxn&)>)
+#4  0x0000010c5cd005 in SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)
+#5  0x0000010c54546d in Scan(ScanFilter const&)
+#6  0x0000010c5452d7 in ImportAtPathV2(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
+#7  0x0000010c4a2cdf in AssetDatabase::ImportAtPath(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
+#8  0x0000010b88efb6 in SplatDatabase::CreateTerrainLayersFromDeprecatedSplats()
+#9  0x0000010b890389 in SplatDatabase::ConvertSplatsToTerrainLayers()
+#10 0x0000010b8903e2 in SplatDatabase::AwakeFromLoad(AwakeFromLoadMode)
+#11 0x0000010b8baf23 in TerrainData::AwakeFromLoad(AwakeFromLoadMode)
+#12 0x0000010b121448 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#13 0x0000010b121168 in AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad(int, AwakeFromLoadMode)
+#14 0x0000010b120f11 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
+#15 0x0000010b0f342a in PersistentManager::IntegrateAllThreadedObjects()
+#16 0x0000010b0f42ec in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#17 0x0000010b0f2e94 in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#18 0x0000010a4e1f21 in PPtr<Object>::operator Object*() const
+#19 0x0000010c47fd19 in PreviewImporter::GenerateAssetData(AssetImportContext&)
+#20 0x0000010c4e6e37 in ImportToObjects(core::basic_string<char, core::StringStorageDefault<char>> const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID>> const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#21 0x0000010c4e59d4 in ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID>> const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#22 0x0000010d1b57e6 in ImportAssetWithAutoReleasePool(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID>> const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#23 0x0000010c5142b6 in AssetImportWorker::Import(AssetResolver&, ImportAssetInputs const&, WorkerImportResponse&, IImportProgress*, bool*)
+#24 0x0000010c5c559e in invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5::operator()() const
+#25 0x007ff8062c8033 in _dispatch_client_callout
+#26 0x007ff8062d5c60 in _dispatch_async_and_wait_invoke
+#27 0x007ff8062c8033 in _dispatch_client_callout
+#28 0x007ff8062d4fcf in _dispatch_main_queue_drain
+#29 0x007ff8062d4c07 in _dispatch_main_queue_callback_4CF
+#30 0x007ff806584195 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#31 0x007ff806543ebf in __CFRunLoopRun
+#32 0x007ff806542ec1 in CFRunLoopRunSpecific
+#33 0x007ff80ffc4f3d in RunCurrentEventLoopInMode
+#34 0x007ff80ffc4d4e in ReceiveNextEventCommon
+#35 0x007ff80ffc4aa8 in _BlockUntilNextEventMatchingListInModeWithFilter
+#36 0x007ff8095df25c in _DPSNextEvent
+#37 0x007ff8095de106 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#38 0x007ff8095d0788 in -[NSApplication run]
+#39 0x007ff8095a49a1 in NSApplicationMain
+#40 0x0000010d19a253 in EditorMain(int, char const**)
+#41 0x0000010d19a599 in main
+#42 0x007ff80610f41f in start
